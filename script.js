@@ -5,7 +5,7 @@
           purchase_units: [{
             amount: {
               currency_code: 'USD',
-              value: '19.99',
+              value: '29.99',
             }
           }]
         });
