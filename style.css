@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Verdana, sans-serif;
+    max-width: 500px;
+    text-align: center;
+}
+
+h1{
+    background-color: #ffc439;
+    height: 50px;
+}
+
+#box{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    margin: auto;
+    margin-top: 15px;
+    color: #fff;
+    line-height: 100px;
+
+}
+
+#product{
+    margin-top: 20px;
+
+}
+
+#buyer-info{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    gap: 5px;
+    margin: 50px;
+}
+
+#buyer-info input{
+    height: 30px;
+    border-radius: 8px;
+    border-color: #808080;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+input:focus{
+    outline: none;
+}
+
+#paypal-button-container{
+    width: 300px;
+    margin-left: 50px;
+}
+

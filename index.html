@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Simple PayPal Checkout</title>
+</head>
+<body>
+  <h1>Shopping Cart</h1>
+  <div id="product">
+    <h2>Blue box of goodies</h2>
+    <div id="box">BBG</div>
+    <p>Item Number: 09876</p>
+    <p>Price: $29.99</p>
+  </div>
+  <form id="buyer-info">
+    <h2>Buyer Information</h2>
+    <input type="text" id="firstName" placeholder="First Name">
+    <input type="text" id="lastName" placeholder="Last Name">
+    <input type="email" id="email" placeholder="Email">
+    <input type="tel" id="phone" placeholder="Phone">
+    <input type="text" id="address1" placeholder="Address Line 1">
+    <input type="text" id="address2" placeholder="Address Line 2">
+    <input type="text" id="state" placeholder="State/Province">
+    <input type="text" id="zip" placeholder="Zip/Postal Code">
+    <input type="text" id="country" placeholder="Country">
+  </form>
+  <div id="paypal-button-container">
+    <!-- PayPal button -->
+  </div>
+  <!-- Thank you message -->
+<div id="thank-you" style="display: none;">
+    <h2>Thank You for Your Purchase!</h2>
+    <p>Your Transaction ID: <span id="transactionId"></span></p>
+  </div>
+  
+
+<script src="https://www.paypal.com/sdk/js?client-id=AdbJP7hO2TYVGt3ag9aOJJQHEXrN53zyRpyDrcgXuyh1mUpZJ9XX0JdWYl11Z0e9RcjKkJNrWuvyOJHD"></script>
+
+<script src="script.js"></script>
+
+
+</body>
+</html>
